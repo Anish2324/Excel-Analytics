@@ -1,3 +1,4 @@
+
 # Excel Analytics
 
 Excel Analytics is a modern web application for uploading, analyzing, and visualizing Excel data.  
@@ -86,6 +87,65 @@ Excel Analytics/
 │   └── ...
 └── README.md
 ```
+
+## Running in GitHub Codespaces
+
+### Installation & Startup
+
+1. **Open Codespace**  
+   Go to your GitHub repo → Code → Open with Codespaces → New codespace.
+
+2. **Install backend dependencies**
+   ```sh
+   cd Backend
+   npm install
+   ```
+
+3. **Install frontend dependencies**
+   ```sh
+   cd ../Frontend
+   npm install
+   ```
+
+4. **Set up environment variables** in `Backend/.env`:
+   ```env
+   PORT=5000
+   MONGODB_URL=your_mongodb_connection_string
+   JWT_SECRET=your_jwt_secret
+   ```
+
+5. **Run backend and frontend in two terminals**:
+
+   **Terminal 1 (Backend):**
+   ```sh
+   cd Backend
+   npm start
+   ```
+
+   **Terminal 2 (Frontend):**
+   ```sh
+   cd Frontend
+   npm start
+   ```
+
+6. **Preview in browser**  
+   Click the PORTS tab → Open ports like `5173` or `5000` in browser.
+
+## Weekly Task Plan (Zidio Internship)
+
+### Week 1
+- ✅ Project setup
+- ✅ User/Admin authentication
+- ✅ Dashboard layout
+
+### Week 2
+- ✅ File upload setup
+- ✅ Excel parsing logic
+- ✅ Store structured data in MongoDB
+
+### Week 3
+- ✅ Chart rendering using Chart.js & Three.js
+- ✅ Dynamic axis selection by user
 
 ## Security
 
