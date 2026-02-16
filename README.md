@@ -131,31 +131,5 @@ Excel Analytics/
 6. **Preview in browser**  
    Click the PORTS tab → Open ports like `5173` or `5000` in browser.
 
-## Weekly Task Plan (Zidio Internship)
-
-### Week 1
-- ✅ Project setup
-- ✅ User/Admin authentication
-- ✅ Dashboard layout
-
-### Week 2
-- ✅ File upload setup
-- ✅ Excel parsing logic
-- ✅ Store structured data in MongoDB
-
-### Week 3
-- ✅ Chart rendering using Chart.js & Three.js
-- ✅ Dynamic axis selection by user
-
-## Security
-
-- **Never commit your `.env` or sensitive files.**
-- All secrets and uploads are ignored via `.gitignore`.
-
-## License
-
-This project is for educational and demonstration purposes.
-
----
 
 **Made with ❤️ for data enthusiasts!**
